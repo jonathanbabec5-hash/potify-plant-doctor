@@ -3,16 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "check:public": "node --test tests/plant-doctor.test.mjs && npm run build",
+    "check:public": "node --test tests/plant-doctor.test.mjs && npm run build && npm run validate:library && npm run test:library",
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build"
+    "build": "vite build",
+    "validate:library": "node --import tsx research/plant-health-library/src/validate.ts",
+    "test:library": "vitest run research/plant-health-library/src/library.test.ts"
   },
   "type": "module",
   "dependencies": {
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "zod": "4.6.6"
   },
   "devDependencies": {
-    "vite": "7.3.7"
+    "vite": "7.3.7",
+    "tsx": "4.23.15",
+    "vitest": "4.1.11"
   }
 }

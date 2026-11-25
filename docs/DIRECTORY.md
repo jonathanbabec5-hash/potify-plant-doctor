@@ -18,6 +18,36 @@ potify-plant-doctor/
 │   └── source.json
 ├── examples/
 │   └── list-profiles.mjs
+├── reference/
+│   └── website/
+│       ├── components/
+│       │   ├── condition-library.tsx
+│       │   ├── diagnosis-result.tsx
+│       │   ├── intake-flow.tsx
+│       │   ├── intake-form.tsx
+│       │   └── saved-cases.tsx
+│       ├── hooks/
+│       │   └── use-plant-doctor-cases.ts
+│       └── services/
+│           ├── plant-doctor.test.ts
+│           └── plant-doctor.ts
+├── research/
+│   └── plant-health-library/
+│       └── src/
+│           ├── profiles/
+│           │   ├── bacterial-viral.ts
+│           │   ├── environmental.ts
+│           │   ├── fungal-diseases.ts
+│           │   ├── insect-pests.ts
+│           │   ├── mites-nematodes.ts
+│           │   ├── nutrient-deficiencies.ts
+│           │   └── nutrient-toxicity-ph.ts
+│           ├── index.ts
+│           ├── library.test.ts
+│           ├── library.ts
+│           ├── schema.ts
+│           ├── validate-core.ts
+│           └── validate.ts
 ├── src/
 │   ├── PlantDoctorClient.tsx
 │   ├── app.css

@@ -20,4 +20,4 @@ Use `plant-doctor-first-public-build` for the pilot. Record a 28-day prelaunch b
 
 Proposed pilot budget is $0 for distribution and two founder hours for the first demonstration. At day 7, inspect the biggest point of friction. At day 28, expand only if the target action was measured and the sales test produced identifiable demand. Report fulfilled sales net of refunds and direct costs. A product serving trust or internal operations may have no direct sales at all.
 
-**Prerequisite for external promotion.** The ruleset covers 37 authored profiles. Standalone Replit service, private notes and independent field validation are outstanding. Draft copy and placements go through the existing approval process.
+**Prerequisite for external promotion.** Both rule libraries and the original website diagnosis code are recovered. Case records, private grow histories, photos, an independent accuracy study and parity with the standalone Replit project remain open. Draft copy and placements go through the existing approval process.

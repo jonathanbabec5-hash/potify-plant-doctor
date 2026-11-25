@@ -1,7 +1,7 @@
 {
   "project": "Plant Doctor",
   "kind": "Recovered diagnostic module",
-  "source": "potify-launch-room at `6aabc005854f87b5c3bc9065cbc62383e1b58f83`. Diagnostic rules and regression fixtures. Care data and five original project art files come from the November 25 recovery snapshot. The original assessment UI now runs as a standalone Vite application built against the same diagnosis module. A separate profile inventory is available with node examples/list-profiles.mjs.",
+  "source": "potify-launch-room at `6aabc005854f87b5c3bc9065cbc62383e1b58f83`. Diagnostic rules and regression fixtures. Care data and five original project art files come from the November 25 recovery snapshot. The original assessment UI now runs as a standalone Vite application built against the same diagnosis module. A separate profile inventory is available with node examples/list-profiles.mjs. Separately recovered the complete website plant-health-library and original website diagnostic service and UI component sources from potify-website main at b40b28683e548a04619f1e018814dd91aec1256d. Website service is shown as integration source; the public screening UI runs locally. The website validation script independently counted 313 complete entries at this revision, and all 12 original library regression tests passed. This checks structure, uniqueness and search behavior; it does not establish diagnostic accuracy.",
   "scope": "The ruleset covers 37 authored profiles. Standalone Replit service, private notes and independent field validation are outstanding.",
   "prepared": "2026-11-25"
 }
