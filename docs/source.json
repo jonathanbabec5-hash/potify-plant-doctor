@@ -1,0 +1,7 @@
+{
+  "project": "Plant Doctor",
+  "kind": "Recovered diagnostic module",
+  "source": "potify-launch-room at `6aabc005854f87b5c3bc9065cbc62383e1b58f83`. Diagnostic rules and regression fixtures. Care data and five original project art files come from the November 25 recovery snapshot. The original assessment UI now runs as a standalone Vite application built against the same diagnosis module. A separate profile inventory is available with node examples/list-profiles.mjs.",
+  "scope": "The ruleset covers 37 authored profiles. Standalone Replit service, private notes and independent field validation are outstanding.",
+  "prepared": "2026-11-25"
+}

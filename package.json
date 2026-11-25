@@ -1,0 +1,18 @@
+{
+  "name": "potify-plant-doctor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check:public": "node --test tests/plant-doctor.test.mjs && npm run build",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build"
+  },
+  "type": "module",
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.7"
+  }
+}
