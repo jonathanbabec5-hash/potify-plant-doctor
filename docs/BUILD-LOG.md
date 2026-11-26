@@ -18,3 +18,9 @@ npm run test:library
 **Owner and decision.** Chance owns the public release and approves campaign copy. Both rule libraries and the original website diagnosis code are recovered. Case records, private grow histories, photos, an independent accuracy study and parity with the standalone Replit project remain open.
 
 This dated record describes the developer package. Verify remote commit and tree in the publication receipt before announcing a GitHub release.
+
+## November 26 · original Replit app restore
+
+The [original 91-file source snapshot](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/f3ea2defae2fdf8110f25970af9edc484667b595/replit-source/plant-doctor) included the client, server and schema. Replit recovered the project-owned hero artwork. The reviewed export uses a newly drawn favicon and omits unverified OpenGraph imagery, screenshots and private diagnostic photos.
+
+Fifteen locked dependency URLs used a Replit-only hostname. Switching them to the public npm registry preserved every package version and integrity digest. A clean install, the TypeScript check, and the client and server production build passed with Node.js 24. The compiled app returned HTTP 200 for its home page and provider-status endpoint. With no model credential configured, the endpoint reported 46 causes, 9 interactions and no active provider.

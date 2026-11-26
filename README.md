@@ -23,6 +23,22 @@ npm run dev
 
 Try one example and submit a reproducible correction. Open http://127.0.0.1:5173 in a browser. For a data-only view, run `node examples/list-profiles.mjs`. The authored JSON reference contains 37 profiles. The executable rules live in `src/diagnosis.ts`.
 
+### Run the recovered Replit application
+
+The [full-stack source](replit-source/plant-doctor/) includes the original intake, server, schema and diagnostic-provider adapter. Its project-owned leaf artwork is restored. A new SVG favicon replaces an icon whose provenance could not be confirmed. The site library and local rules above have their own entry points.
+
+Use Node.js 24. From the repository root:
+
+```sh
+cd replit-source/plant-doctor
+npm ci
+npm run check
+npm run build
+PORT=5000 npm start
+```
+
+Open http://127.0.0.1:5000/ and inspect `/api/diagnose/status` to see whether a provider is configured. The clean, key-free smoke test served both endpoints. The status reported 46 causes and 9 interactions in this server’s knowledge base. Those counts describe this implementation. Diagnostic accuracy and live model responses require separate evidence.
+
 ### Developer entry points
 
 The standalone assessment uses the 37 authored Launch Room care profiles. A distinct 313-profile condition library from the main website contains source-linked condition records, validation and search. The main website diagnosis service uses a shortlist, structured output and a deterministic fallback. Explore `art/`, `data/`, `examples/`, `reference/`, `research/`, `src/`, `tests/` in the full tree.
