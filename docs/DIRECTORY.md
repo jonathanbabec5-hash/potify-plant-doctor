@@ -1,64 +1,143 @@
-# Repository tree
+# Complete repository directory
+
+Tracked paths relative to the repository root, including the full-stack Replit edition.
 
 ```text
-potify-plant-doctor/
-├── art/
-│   ├── plant-doctor-at-the-grow-desk.png
-│   ├── plant-doctor-serrated-leaf-in-violet-light.png
-│   ├── plant-doctor-workbench-with-game-controller.png
-│   ├── potify-plant-doctor-in-golden-greenhouse.png
-│   └── potify-plant-doctor-observe-understand-grow.png
-├── data/
-│   └── care-profiles.json
-├── docs/
-│   ├── BUILD-LOG.md
-│   ├── DIRECTORY.md
-│   ├── MARKETING.md
-│   ├── WHITEPAPER.md
-│   └── source.json
-├── examples/
-│   └── list-profiles.mjs
-├── reference/
-│   └── website/
-│       ├── components/
-│       │   ├── condition-library.tsx
-│       │   ├── diagnosis-result.tsx
-│       │   ├── intake-flow.tsx
-│       │   ├── intake-form.tsx
-│       │   └── saved-cases.tsx
-│       ├── hooks/
-│       │   └── use-plant-doctor-cases.ts
-│       └── services/
-│           ├── plant-doctor.test.ts
-│           └── plant-doctor.ts
-├── research/
-│   └── plant-health-library/
-│       └── src/
-│           ├── profiles/
-│           │   ├── bacterial-viral.ts
-│           │   ├── environmental.ts
-│           │   ├── fungal-diseases.ts
-│           │   ├── insect-pests.ts
-│           │   ├── mites-nematodes.ts
-│           │   ├── nutrient-deficiencies.ts
-│           │   └── nutrient-toxicity-ph.ts
-│           ├── index.ts
-│           ├── library.test.ts
-│           ├── library.ts
-│           ├── schema.ts
-│           ├── validate-core.ts
-│           └── validate.ts
-├── src/
-│   ├── PlantDoctorClient.tsx
-│   ├── app.css
-│   ├── diagnosis.ts
-│   └── main.tsx
-├── tests/
-│   └── plant-doctor.test.mjs
-├── .gitignore
-├── README.md
-├── index.html
-├── package-lock.json
-├── package.json
-└── vite.config.mjs
+.gitignore
+README.md
+art/plant-doctor-at-the-grow-desk.png
+art/plant-doctor-serrated-leaf-in-violet-light.png
+art/plant-doctor-workbench-with-game-controller.png
+art/potify-plant-doctor-in-golden-greenhouse.png
+art/potify-plant-doctor-observe-understand-grow.png
+data/care-profiles.json
+docs/BUILD-LOG.md
+docs/DIRECTORY.md
+docs/MARKETING.md
+docs/WHITEPAPER.md
+docs/source.json
+examples/list-profiles.mjs
+index.html
+package-lock.json
+package.json
+reference/website/components/condition-library.tsx
+reference/website/components/diagnosis-result.tsx
+reference/website/components/intake-flow.tsx
+reference/website/components/intake-form.tsx
+reference/website/components/saved-cases.tsx
+reference/website/hooks/use-plant-doctor-cases.ts
+reference/website/services/plant-doctor.test.ts
+reference/website/services/plant-doctor.ts
+replit-source/plant-doctor/.gitignore
+replit-source/plant-doctor/EXPORT-NOTES.md
+replit-source/plant-doctor/client/index.html
+replit-source/plant-doctor/client/public/favicon.svg
+replit-source/plant-doctor/client/src/App.tsx
+replit-source/plant-doctor/client/src/assets/images/hero-bg.png
+replit-source/plant-doctor/client/src/components/diagnosis/IntakeForm.tsx
+replit-source/plant-doctor/client/src/components/diagnosis/PhotoUpload.tsx
+replit-source/plant-doctor/client/src/components/diagnosis/ResultsPanel.tsx
+replit-source/plant-doctor/client/src/components/ui/accordion.tsx
+replit-source/plant-doctor/client/src/components/ui/alert-dialog.tsx
+replit-source/plant-doctor/client/src/components/ui/alert.tsx
+replit-source/plant-doctor/client/src/components/ui/aspect-ratio.tsx
+replit-source/plant-doctor/client/src/components/ui/avatar.tsx
+replit-source/plant-doctor/client/src/components/ui/badge.tsx
+replit-source/plant-doctor/client/src/components/ui/button-group.tsx
+replit-source/plant-doctor/client/src/components/ui/button.tsx
+replit-source/plant-doctor/client/src/components/ui/calendar.tsx
+replit-source/plant-doctor/client/src/components/ui/card.tsx
+replit-source/plant-doctor/client/src/components/ui/carousel.tsx
+replit-source/plant-doctor/client/src/components/ui/chart.tsx
+replit-source/plant-doctor/client/src/components/ui/checkbox.tsx
+replit-source/plant-doctor/client/src/components/ui/collapsible.tsx
+replit-source/plant-doctor/client/src/components/ui/context-menu.tsx
+replit-source/plant-doctor/client/src/components/ui/dialog.tsx
+replit-source/plant-doctor/client/src/components/ui/drawer.tsx
+replit-source/plant-doctor/client/src/components/ui/dropdown-menu.tsx
+replit-source/plant-doctor/client/src/components/ui/empty.tsx
+replit-source/plant-doctor/client/src/components/ui/field.tsx
+replit-source/plant-doctor/client/src/components/ui/form.tsx
+replit-source/plant-doctor/client/src/components/ui/hover-card.tsx
+replit-source/plant-doctor/client/src/components/ui/input-group.tsx
+replit-source/plant-doctor/client/src/components/ui/input-otp.tsx
+replit-source/plant-doctor/client/src/components/ui/input.tsx
+replit-source/plant-doctor/client/src/components/ui/item.tsx
+replit-source/plant-doctor/client/src/components/ui/kbd.tsx
+replit-source/plant-doctor/client/src/components/ui/label.tsx
+replit-source/plant-doctor/client/src/components/ui/menubar.tsx
+replit-source/plant-doctor/client/src/components/ui/navigation-menu.tsx
+replit-source/plant-doctor/client/src/components/ui/pagination.tsx
+replit-source/plant-doctor/client/src/components/ui/popover.tsx
+replit-source/plant-doctor/client/src/components/ui/progress.tsx
+replit-source/plant-doctor/client/src/components/ui/radio-group.tsx
+replit-source/plant-doctor/client/src/components/ui/resizable.tsx
+replit-source/plant-doctor/client/src/components/ui/scroll-area.tsx
+replit-source/plant-doctor/client/src/components/ui/select.tsx
+replit-source/plant-doctor/client/src/components/ui/separator.tsx
+replit-source/plant-doctor/client/src/components/ui/sheet.tsx
+replit-source/plant-doctor/client/src/components/ui/sidebar.tsx
+replit-source/plant-doctor/client/src/components/ui/skeleton.tsx
+replit-source/plant-doctor/client/src/components/ui/slider.tsx
+replit-source/plant-doctor/client/src/components/ui/sonner.tsx
+replit-source/plant-doctor/client/src/components/ui/spinner.tsx
+replit-source/plant-doctor/client/src/components/ui/switch.tsx
+replit-source/plant-doctor/client/src/components/ui/table.tsx
+replit-source/plant-doctor/client/src/components/ui/tabs.tsx
+replit-source/plant-doctor/client/src/components/ui/textarea.tsx
+replit-source/plant-doctor/client/src/components/ui/toast.tsx
+replit-source/plant-doctor/client/src/components/ui/toaster.tsx
+replit-source/plant-doctor/client/src/components/ui/toggle-group.tsx
+replit-source/plant-doctor/client/src/components/ui/toggle.tsx
+replit-source/plant-doctor/client/src/components/ui/tooltip.tsx
+replit-source/plant-doctor/client/src/hooks/use-mobile.tsx
+replit-source/plant-doctor/client/src/hooks/use-toast.ts
+replit-source/plant-doctor/client/src/index.css
+replit-source/plant-doctor/client/src/lib/diagnosis-api.ts
+replit-source/plant-doctor/client/src/lib/image-compress.ts
+replit-source/plant-doctor/client/src/lib/queryClient.ts
+replit-source/plant-doctor/client/src/lib/utils.ts
+replit-source/plant-doctor/client/src/main.tsx
+replit-source/plant-doctor/client/src/pages/home.tsx
+replit-source/plant-doctor/client/src/pages/not-found.tsx
+replit-source/plant-doctor/components.json
+replit-source/plant-doctor/drizzle.config.ts
+replit-source/plant-doctor/package-lock.json
+replit-source/plant-doctor/package.json
+replit-source/plant-doctor/postcss.config.js
+replit-source/plant-doctor/script/build.ts
+replit-source/plant-doctor/server/diagnosis/analyze.ts
+replit-source/plant-doctor/server/diagnosis/knowledge-base.ts
+replit-source/plant-doctor/server/diagnosis/prompt.ts
+replit-source/plant-doctor/server/diagnosis/provider.ts
+replit-source/plant-doctor/server/index.ts
+replit-source/plant-doctor/server/logger.ts
+replit-source/plant-doctor/server/routes.ts
+replit-source/plant-doctor/server/static.ts
+replit-source/plant-doctor/server/storage.ts
+replit-source/plant-doctor/server/vite.ts
+replit-source/plant-doctor/shared/diagnosis.ts
+replit-source/plant-doctor/shared/schema.ts
+replit-source/plant-doctor/tsconfig.json
+replit-source/plant-doctor/vite-plugin-meta-images.ts
+replit-source/plant-doctor/vite.config.ts
+research/plant-health-library/src/index.ts
+research/plant-health-library/src/library.test.ts
+research/plant-health-library/src/library.ts
+research/plant-health-library/src/profiles/bacterial-viral.ts
+research/plant-health-library/src/profiles/environmental.ts
+research/plant-health-library/src/profiles/fungal-diseases.ts
+research/plant-health-library/src/profiles/insect-pests.ts
+research/plant-health-library/src/profiles/mites-nematodes.ts
+research/plant-health-library/src/profiles/nutrient-deficiencies.ts
+research/plant-health-library/src/profiles/nutrient-toxicity-ph.ts
+research/plant-health-library/src/schema.ts
+research/plant-health-library/src/validate-core.ts
+research/plant-health-library/src/validate.ts
+src/PlantDoctorClient.tsx
+src/app.css
+src/diagnosis.ts
+src/main.tsx
+tests/plant-doctor.test.mjs
+vite.config.mjs
 ```

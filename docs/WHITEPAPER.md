@@ -24,3 +24,7 @@ Both rule libraries and the original website diagnosis code are recovered. Case 
 Test interest in a paid illustrated care notebook after users finish a free assessment. The marketing plan gives the test window and the evidence for a commercial outcome.
 
 [Source provenance](source.json) · [Build log](BUILD-LOG.md) · [Marketing plan](MARKETING.md)
+
+### Original full-stack edition
+
+The [Replit application](../replit-source/plant-doctor/) separates intake, diagnostic service, provider selection and the knowledge base. Its key-free status endpoint lets developers check configuration independently of a live model call. [Setup and verified checks](../README.md)
