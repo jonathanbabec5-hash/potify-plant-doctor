@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## What does a yellow leaf leave out?
+
+A yellow leaf is a good reason to look closer. On its own it tells a grower remarkably little. Plant Doctor gives the question back to the person standing beside the pot: what else can you actually observe? That small pause is the point of the tool.
+
+Start with the [ranking rules](src/diagnosis.ts) and the [regression fixtures](tests/plant-doctor.test.mjs). The standalone app has 37 authored care profiles. The separate website library has 313 condition records; adding the two numbers together would tell you nothing about diagnostic accuracy.
+
+Keep a fictional plant, its stage and its symptoms fixed. Change only the moisture observation from unknown to stays-wet. Record the top suggestion and its next check before and after, even if they stay the same. A small fixture with an explanation is more useful than a photo of someone’s grow.
+
 **Diagnostic app and original website condition library.** Turn a grower's observations into a short list of causes and a sensible next check.
 
 ### Setup and usage
