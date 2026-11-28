@@ -16,6 +16,7 @@ docs/DIRECTORY.md
 docs/MARKETING.md
 docs/WHITEPAPER.md
 docs/source.json
+examples/compare-moisture.mjs
 examples/list-profiles.mjs
 index.html
 package-lock.json

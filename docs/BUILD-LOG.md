@@ -24,3 +24,7 @@ This dated record describes the developer package. Verify remote commit and tree
 The [original 91-file source snapshot](https://github.com/jonathanbabec5-hash/potify-plant-doctor/tree/f3ea2defae2fdf8110f25970af9edc484667b595/replit-source/plant-doctor) included the client, server and schema. Replit recovered the project-owned hero artwork. The reviewed export uses a newly drawn favicon and omits unverified OpenGraph imagery, screenshots and private diagnostic photos.
 
 Fifteen locked dependency URLs used a Replit-only hostname. Switching them to the public npm registry preserved every package version and integrity digest. A clean install, the TypeScript check, and the client and server production build passed with Node.js 24. The compiled app returned HTTP 200 for its home page and provider-status endpoint. With no model credential configured, the endpoint reported 46 causes, 9 interactions and no active provider.
+
+## November 28 · One observation changes the first check
+
+The new [moisture comparison](../examples/compare-moisture.mjs) exercises the standalone ranking rules twice with fictional input. Running it exposed a rule that awarded the same six points for generic yellowing as for webbing or stippling and attributed those specific signs to the case. That signal now requires a reported matching sign. Regression checks cover the sparse case, the wet-pot comparison and the existing positive mite fixture. These are software checks on the standalone edition.

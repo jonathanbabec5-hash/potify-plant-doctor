@@ -436,7 +436,7 @@ const careProfiles: CareProfile[] = [
     category: "Pests",
     urgency: "Isolate",
     overview: "Fine stippling, moving dots under leaves, and delicate webbing form a strong spider-mite pattern.",
-    signals: [signal("pestEvidence", ["webbing"], 9, "Webbing or moving dots is a high-value mite signal"), signal("symptoms", ["webbing", "stippling", "yellowing"], 6, "Stippling and webbing fit feeding damage"), signal("area", ["lower", "patches", "whole"], 2, "Mites often spread from localized leaf undersides")],
+    signals: [signal("pestEvidence", ["webbing"], 9, "Webbing or moving dots is a high-value mite signal"), signal("symptoms", ["webbing", "stippling"], 6, "The reported webbing or stippling fits feeding damage"), signal("area", ["lower", "patches", "whole"], 2, "Mites often spread from localized leaf undersides")],
     checks: ["Use a hand lens on leaf undersides and tap a leaf over white paper.", "Inspect nearby plants, stakes, and container rims.", "Mark several leaves to see whether stippling expands."],
     actions: ["Isolate the plant and remove the most heavily infested leaves in a sealed bag.", "Rinse leaf undersides where the plant tolerates it, then use a product labeled for the plant and pest.", "Repeat inspection and label-directed treatment because eggs may survive a single pass."],
     avoid: "Avoid spraying oils or soaps under intense light, on heat-stressed plants, or directly onto flowers meant for consumption.",

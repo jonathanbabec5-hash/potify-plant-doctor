@@ -4,7 +4,7 @@
 
 | If you are… | Start here | Try this |
 | --- | --- | --- |
-| A grower | [Try the local app](#setup-and-usage) | Explore an example using fictional observations. |
+| A grower | [Compare two fictional observations](#try-the-moisture-example) | See which check changes when a pot stays wet. |
 | A developer | [Read the diagnosis rules](src/diagnosis.ts) | Change one moisture observation and compare the suggested checks. |
 | A reviewer | [Review test fixtures](tests/plant-doctor.test.mjs) | Propose a reproducible correction; a profile count is not accuracy evidence. |
 
@@ -19,6 +19,16 @@ Start with the [ranking rules](src/diagnosis.ts) and the [regression fixtures](t
 Keep a fictional plant, its stage and its symptoms fixed. Change only the moisture observation from unknown to stays-wet. Record the top suggestion and its next check before and after, even if they stay the same. A small fixture with an explanation is more useful than a photo of someone’s grow.
 
 **Diagnostic app and original website condition library.** Turn a grower's observations into a short list of causes and a sensible next check.
+
+### Try the moisture example
+
+From the repository root, run this with Node.js 24. It uses the same ranking function as the standalone app and runs without installing packages.
+
+```sh
+node examples/compare-moisture.mjs
+```
+
+Both cases describe the same yellowing indoor plant. With moisture unknown, the first check asks whether yellowing is even or between the leaf veins. With moisture set to `stays-wet`, the first check compares container weight. Each result includes its pattern strength. To investigate another observation, edit the [fictional case](examples/compare-moisture.mjs) and rerun it.
 
 ### Setup and usage
 
