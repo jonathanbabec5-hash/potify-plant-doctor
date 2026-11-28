@@ -1,5 +1,13 @@
 # Plant Doctor
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A grower | [Try the local app](#setup-and-usage) | Explore an example using fictional observations. |
+| A developer | [Read the diagnosis rules](src/diagnosis.ts) | Change one moisture observation and compare the suggested checks. |
+| A reviewer | [Review test fixtures](tests/plant-doctor.test.mjs) | Propose a reproducible correction; a profile count is not accuracy evidence. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## What does a yellow leaf leave out?
