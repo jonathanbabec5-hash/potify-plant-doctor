@@ -70,3 +70,18 @@ test("recognizes abrupt intense-light injury", () => {
   });
   assert.equal(first.id, "light-burn");
 });
+
+test("yellowing alone does not elevate spider mites or report webbing", () => {
+  const results = diagnosePlant(baseline);
+  assert.notEqual(results[0].id, "spider-mites");
+  assert.ok(results.every(result =>
+    result.reasons.every(reason => !/webbing|stippling/i.test(reason))
+  ));
+});
+
+test("a persistently wet pot changes the first check in the example", () => {
+  const [before] = diagnosePlant(baseline);
+  const [after] = diagnosePlant({ ...baseline, moisture: "stays-wet" });
+  assert.notEqual(before.id, after.id);
+  assert.notEqual(before.checks[0], after.checks[0]);
+});
